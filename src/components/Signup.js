@@ -33,7 +33,7 @@ function Signup  () {
             
             <div className="col-7">
                 <Link  to="/">
-                    Go To Login Page.
+                    Go To Login.
                 </Link>
             </div>
         </div>

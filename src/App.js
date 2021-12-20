@@ -17,9 +17,10 @@ export default function App() {
         <Route  path="/" exact component={ Login } />
         <Route  path="/signup" exact component={Signup} />
         </BrowserRouter>
-        </div>
-     <div className="col">
       </div>
+      <div className="col">
+        <hr color="black"/>
+    </div>
       <Footer />
     </div> 
   );

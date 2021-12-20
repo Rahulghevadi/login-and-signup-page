@@ -1,7 +1,3 @@
-/* .App{
-  justify-content: center;
-  text-align: center;
-} */
 
 .header-container{
   border-radius: 20px;
@@ -85,14 +81,13 @@
 }
 
 .main-footer{
-    padding-top: 150px;
-    flex-direction: column;
-    flex: 1;
+    background-color:rgb(86, 160, 160);
+    border-radius: 20px;
 }
-.footer-row1{
-    justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap;
+
+.footer-container{
+ display: flex; 
+ justify-content:space-evenly;
 }
 
 .header-col1{
@@ -106,4 +101,8 @@ img{
 }
 
 
-
+.footer-col2{
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
