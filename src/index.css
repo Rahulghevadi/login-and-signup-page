@@ -1,6 +1,6 @@
 
 .header-container{
-  border-radius: 20px;
+  /* border-radius: 20px; */
   background-color: rgb(86, 160, 160);
 }
 
@@ -82,7 +82,7 @@
 
 .main-footer{
     background-color:rgb(86, 160, 160);
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .footer-container{

@@ -2,15 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { StyledEngineProvider } from '@mui/material/styles';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from 'react-router-dom'
+import { Password } from '@mui/icons-material';
 ReactDOM.render(
    
-
   <React.StrictMode>
     <BrowserRouter>
       <App />
-      </BrowserRouter>
+    </BrowserRouter>
+    <StyledEngineProvider injectFirst>
+    <Password />
+  </StyledEngineProvider>,
   </React.StrictMode>,
   
   document.getElementById('root')

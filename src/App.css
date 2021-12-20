@@ -1,6 +1,6 @@
-body{
+/* body{
     background-color:rgb(86, 160, 160);
-}
+} */
 
 .App{
     margin: 20px;
@@ -10,6 +10,7 @@ body{
 .app-col2{
     background-size: cover;
   background: url(/home/rahul/projects/capstone/login_page/public/Images/bgimage.jpg);
-  border-radius: 20px;
+  /* border-radius: 20px; */
+
 
 }

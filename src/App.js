@@ -5,14 +5,17 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Login from './components/Login'
 import Signup from './components/Signup';
-import { Route, BrowserRouter } from 'react-router-dom';
+import { Route, BrowserRouter } from 'react-router-dom'
+import ShowHidden from './components/ShowHidden';
 
 
 export default function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header />
+      <ShowHidden/>
       <div className="app-col2">
+
         <BrowserRouter>
         <Route  path="/" exact component={ Login } />
         <Route  path="/signup" exact component={Signup} />

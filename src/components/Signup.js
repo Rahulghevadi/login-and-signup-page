@@ -2,6 +2,7 @@ import { Button, TextField } from '@material-ui/core';
 import React from 'react'
 import { Link } from 'react-router-dom'
 import PersonAddIcon from '@material-ui/icons/PersonAdd';
+import ShowHidden from './ShowHidden';
 
 
 function Signup  () {
@@ -24,12 +25,14 @@ function Signup  () {
                      <TextField id="email" type="text" variant="outlined" label="Enter Email Address" />
                  </div>
                 <div className='col-6'>
-                     <TextField id="password" type="password" variant="outlined" label="Enter Password" />
+                    <ShowHidden/>
+                     {/* <TextField id="password" type="password" variant="outlined" label="Enter Password" /> */}
                 </div>
                 <div className="signup-button">
-                    <Button  variant="contained">Signup</Button>
+                    <Button  variant="contained" color="primary">Signup</Button>
                 </div>
             </div>
+            
             
             <div className="col-7">
                 <Link  to="/">
